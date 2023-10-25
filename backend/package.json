@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": "18.17.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parse/s3-files-adapter": "^2.2.0",
+    "aws-sdk": "^2.1459.0",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "parse": "^4.2.0",
+    "parse-server": "https://github.com/parse-community/parse-server.git#6b8d20b"
+  }
+}
